@@ -1,2 +1,8 @@
-# QR-code-security
-基于Android移动端的二维码钓鱼检测
+# QR_code_security_server
+基于Android移动端的二维码钓鱼检测系统
+
+-接收Android端解码的二维码信息和截取的Logo数据
+
+-利用预训练的卷积神经网络模型识别Logo身份
+
+-根据Logo身份和URL信息判断二维码合法性
